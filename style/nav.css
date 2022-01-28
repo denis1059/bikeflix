@@ -1,0 +1,37 @@
+.roda{
+    height: 50px;
+    margin-right: 5px;
+    transition: transform 900ms linear;
+
+
+}
+
+.roda:hover{
+    transform: rotate(556deg)
+
+
+}
+
+.menu a{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 19px;
+
+}
+
+.item{
+    font-size: 30px;
+    text-align: center;
+}
+
+.videos{
+    height: 500px;;
+
+
+}
+.video{
+    height: 100%;
+    width: 100%;
+}
+
