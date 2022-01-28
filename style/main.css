@@ -131,3 +131,13 @@ header nav a:hover{
     background-color: #e41f1f;
 
 }
+
+footer{
+
+    background-color: var(--vermelho);
+    height: 20px;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}
+
