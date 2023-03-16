@@ -1,143 +1,125 @@
-:root{
-    --vermelho: #E50914;
-    --preta: #141414;
+:root {
+  --color-red: #E50914;
+  --color-black: #141414;
 }
 
-/*base*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-
+/* Body */
+body {
+  background: var(--color-black);
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
 }
 
-header .container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    
+/* Header */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-black);
+  padding: 10px 30px;
 }
 
-header .logo{
-    margin-left: 5px;
-    color: var(--vermelho);
-    font-family: 'Arial Black', Times, serif;
-    font-size: 40px;
-    transition: transform 200ms linear;
-   
+.logo {
+  color: var(--color-red);
+  font-family: 'Arial Black', Times, serif;
+  font-size: 40px;
+  transition: transform 200ms linear;
 }
 
-header .logo:hover{
-    transform: perspective(5);
-
-    background-image: url(../img/pneu.png);
-    background-repeat: no-repeat;
-    background-size: 400px;
-
-
-
-
+.logo:hover {
+  transform: perspective(5);
 }
 
-header nav a{
-    text-decoration: none;
-    color: #AAA;
-    margin-right: 10px;
+nav a {
+  text-decoration: none;
+  color: #AAA;
+  margin-right: 10px;
 }
 
-header nav a:hover{
-    color: #fff;
+nav a:hover {
+  color: #fff;
 }
 
-/*Donwhill*/
-
-.principais{
-    background: url(../img/carro\ e\ bikes.jpg);
-    font-size: 16px;
-    height: 540px;
-    background-size: cover;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-
+/* Main section */
+.principais {
+  background: url(../img/carro\ e\ bikes.jpg);
+  font-size: 16px;
+  height: 540px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.principais .descricao{
-    
-    margin-top: 10px;
-    margin-bottom: 40px;
-    font-size: 20px;
-    width:590px;
+.titulo {
+  margin-top: 20%;
+  font-size: 50px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
-.titulo{
-    margin-top: 20%;
-    font-size: 50px;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+.descricao {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  width: 590px;
 }
 
-.botao{
-    background-color: rgba(0,0,0,.50);
-    border: none;
-    color: white;
-    padding: 15px 30px;
-    font-size: 17px;
-    cursor: pointer;
-    transition: .3s ease all;
+.botao {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.botao:hover{
-    background-color: white;
-    color: black;
+.botao:hover {
+  background-color: white;
+  color: black;
 }
 
-.botao i{
-   margin-right: 8px;
-   color: #E50914;
-
+.botao i {
+  margin-right: 8px;
+  color: var(--color-red);
 }
 
-.container{
-    margin-left: 30px;
+/* Container */
+.container {
+  margin: 0 30px;
 }
 
-.principais .container{
-    width: 70%;
+.principais .container {
+  width: 70%;
 }
 
-.box-bikes{
-    height: 100%;
-    width: 100%;
-    display: block;
+/* Bikes */
+.box-bikes {
+  height: 100%;
+  width: 100%;
+  display: block;
 }
 
-.carrosel-bikes{
-    margin-top: 5px;
+.carrosel-bikes {
+  margin-top: 5px;
 }
 
-.carrosel-videos{
-    height: 600px;
-    width: 100%;
-
-    background-color: #e41f1f;
-
+/* Videos */
+.carrosel-videos {
+  height: 600px;
+  width: 100%;
+  background-color: #e41f1f;
 }
 
-footer{
-
-    background-color: var(--vermelho);
-    height: 20px;
-    width: 100%;
-    font-size: 20px;
-    color: white;
-}
-
+/* Footer */
+footer {
+ 
